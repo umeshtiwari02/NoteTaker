@@ -11,11 +11,33 @@
 </head>
 <body>
 
-	<div class="container-fluid p-0 m-0">
+	<div class="container">
 		<%@ include file="navbar.jsp"%>
-	</div>
 
-	<h2>This is Add Notes Page.</h2>
+		<br>
+		<h2>Please fill your note detail.</h2>
+		<br>
+
+		<!-- This is add form -->
+
+		<form action="SaveNoteServlet" method="post">
+			<div class="form-group">
+				<label for="title">Note Title</label> <input required type="text"
+					class="form-control" id="title" aria-describedby="emailHelp"
+					placeholder="Enter here...">
+			</div>
+
+			<div class="form-group">
+				<label for="content" class="form-label">Note Content</label>
+				<textarea required id="content" placeholder="Enter content here.."
+					class="form-control" style="height: 300px;"></textarea>
+			</div>
+
+			<div class="container text-center p-2">
+				<button type="submit" class="btn btn-primary">Add</button>
+			</div>
+		</form>
+	</div>
 
 </body>
 </html>
