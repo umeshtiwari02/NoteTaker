@@ -22,15 +22,16 @@
 
 		<form action="SaveNoteServlet" method="post">
 			<div class="form-group">
-				<label for="title">Note Title</label> <input required type="text"
-					class="form-control" id="title" aria-describedby="emailHelp"
-					placeholder="Enter here...">
+				<label for="title">Note Title</label> <input name="title" required
+					type="text" class="form-control" id="title"
+					aria-describedby="emailHelp" placeholder="Enter here...">
 			</div>
 
 			<div class="form-group">
 				<label for="content" class="form-label">Note Content</label>
-				<textarea required id="content" placeholder="Enter content here.."
-					class="form-control" style="height: 300px;"></textarea>
+				<textarea name="content" required id="content"
+					placeholder="Enter content here.." class="form-control"
+					style="height: 300px;"></textarea>
 			</div>
 
 			<div class="container text-center p-2">

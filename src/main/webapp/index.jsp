@@ -13,9 +13,9 @@
 
 	<div class="container">
 		<%@ include file="navbar.jsp"%>
+
+		<h2>This is Home Page.</h2>
 	</div>
-	
-	<h2>This is Home Page.</h2>
 
 </body>
 </html>

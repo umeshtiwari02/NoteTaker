@@ -1,8 +1,9 @@
 package com.entities;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.Random;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
@@ -15,6 +16,7 @@ public class Note {
 	private int id;
 	private String title;
 	private String content;
+	@Column(name = "added_date")
 	private Date addedDate;
 
 	public int getId() {
@@ -49,7 +51,7 @@ public class Note {
 		this.addedDate = addedDate;
 	}
 
-	public Note(int id, String title, String content, Date addedDate) {
+	public Note(String title, String content, Date addedDate) {
 		super();
 		this.id = new Random().nextInt(100000);
 		this.title = title;
