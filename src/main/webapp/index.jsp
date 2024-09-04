@@ -7,7 +7,7 @@
 
 <%@ include file="all_js_css.jsp"%>
 
-<title>Note Taker : Home</title>
+<title>Note Taker : Home </title>
 </head>
 <body>
 

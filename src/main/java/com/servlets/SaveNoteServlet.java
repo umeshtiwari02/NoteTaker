@@ -20,7 +20,6 @@ public class SaveNoteServlet extends HttpServlet {
 
 	public SaveNoteServlet() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Note Taker : Add Notes</title>
+<title>Note Taker : Add Note</title>
 
 <%@include file="all_js_css.jsp"%>
 
@@ -19,7 +19,6 @@
 		<br>
 
 		<!-- This is add form -->
-
 		<form action="SaveNoteServlet" method="post">
 			<div class="form-group">
 				<label for="title">Note Title</label> <input name="title" required
