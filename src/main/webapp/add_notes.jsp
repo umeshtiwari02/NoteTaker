@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Add Notes</title>
+<title>Note Taker : Add Notes</title>
 
 <%@include file="all_js_css.jsp"%>
 
