@@ -40,6 +40,10 @@
 						<h5 class="card-title"><%=note.getTitle()%></h5>
 						<p class="card-text"><%=note.getContent()%></p>
 
+						<p>
+							<b class="text-primary"> <%=note.getAddedDate()%></b>
+						</p>
+
 						<div class="container text-center">
 							<a href="DeleteServlet?note_id=<%=note.getId()%>"
 								class="btn btn-danger">Delete</a> <a
